@@ -38,11 +38,13 @@ const ChatInterface: React.FC = () => {
 			const assistantMessage: ChatMessage = {
 				id: Math.random().toString(36).substr(2, 9),
 				role: 'assistant',
-				content: `This is a simulated response to: "${userMessage.content}". 
+				content: `Ahoy there, matey! 🏴‍☠️
 
-In a real implementation, this would be connected to the OpenAI API using the configured model settings from the left panel.
+Ye've come to the right pirate for help! I be Captain LLM, and I've sailed the seven seas of knowledge to bring ye the finest answers.
 
-The response would also be analyzed by the AI Judge in the right panel for scoring and feedback.`,
+What treasure of wisdom be ye seekin' today? Whether it's codin' secrets, writin' tales, or navigatin' the treacherous waters of problem-solvin', this old sea dog has got ye covered!
+
+*Arrr, this be a simulated response from yer friendly neighborhood AI pirate!*`,
 				timestamp: new Date(),
 			};
 			setMessages((prev) => [...prev, assistantMessage]);
