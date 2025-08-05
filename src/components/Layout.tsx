@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { HiChevronLeft, HiChevronRight } from 'react-icons/hi2';
-import { PanelState } from '../types';
+import type { PanelState } from '../types';
 import TopNavigation from './TopNavigation';
 import LeftPanel from './LeftPanel';
 import ChatInterface from './ChatInterface';

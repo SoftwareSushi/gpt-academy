@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { HiPaperAirplane, HiStop } from 'react-icons/hi2';
-import { ChatMessage } from '../types';
+import type { ChatMessage } from '../types';
 
 const ChatInterface: React.FC = () => {
 	const [messages, setMessages] = useState<ChatMessage[]>([]);

@@ -2,10 +2,10 @@ import React, { useState } from 'react';
 import {
 	HiPencil,
 	HiCheck,
-	HiX,
+	HiXMark,
 	HiClipboardDocumentList,
 } from 'react-icons/hi2';
-import { Assignment } from '../types';
+import type { Assignment } from '../types';
 
 interface AssignmentSectionProps {
 	assignment: Assignment;
@@ -99,7 +99,7 @@ const AssignmentSection: React.FC<AssignmentSectionProps> = ({
 								onClick={handleTitleCancel}
 								className="p-1 text-red-600 hover:text-red-800 dark:text-red-400 dark:hover:text-red-300"
 							>
-								<HiX className="w-4 h-4" />
+								<HiXMark className="w-4 h-4" />
 							</button>
 						</div>
 					</div>

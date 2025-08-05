@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ModelSettings, UploadedFile } from '../types';
+import type { ModelSettings, UploadedFile } from '../types';
 import ModelSettingsSection from './ModelSettingsSection';
 import KnowledgeUploadSection from './KnowledgeUploadSection';
 

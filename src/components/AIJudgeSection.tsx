@@ -5,7 +5,7 @@ import {
 	HiLightBulb,
 	HiArrowTrendingUp,
 } from 'react-icons/hi2';
-import { AIFeedback } from '../types';
+import type { AIFeedback } from '../types';
 
 interface AIJudgeSectionProps {
 	feedback: AIFeedback | null;

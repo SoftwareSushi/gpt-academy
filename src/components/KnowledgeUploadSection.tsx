@@ -7,7 +7,7 @@ import {
 	HiEye,
 	HiEyeSlash,
 } from 'react-icons/hi2';
-import { UploadedFile } from '../types';
+import type { UploadedFile } from '../types';
 
 interface KnowledgeUploadSectionProps {
 	files: UploadedFile[];

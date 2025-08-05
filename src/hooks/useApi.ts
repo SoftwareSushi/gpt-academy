@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import {
+import type {
 	ModelSettings,
 	ChatMessage,
 	AIFeedback,
@@ -69,8 +69,8 @@ export const useAIJudge = () => {
 	const [error, setError] = useState<ApiError | null>(null);
 
 	const analyzeProm = async (
-		messages: ChatMessage[],
-		assignment: string
+		_messages: ChatMessage[],
+		_assignment: string
 	): Promise<AIFeedback | null> => {
 		setLoading(true);
 		setError(null);

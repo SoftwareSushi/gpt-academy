@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Assignment, AIFeedback } from '../types';
+import type { Assignment, AIFeedback } from '../types';
 import AssignmentSection from './AssignmentSection';
 import AIJudgeSection from './AIJudgeSection';
 

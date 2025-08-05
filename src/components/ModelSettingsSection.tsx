@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { HiChevronDown, HiChevronUp } from 'react-icons/hi2';
-import { ModelSettings } from '../types';
+import type { ModelSettings } from '../types';
 
 interface ModelSettingsSectionProps {
 	settings: ModelSettings;
